@@ -1,1 +1,1 @@
-This is the mini project of HTML & CSS
+This is the mini project of HTML & CSS.
