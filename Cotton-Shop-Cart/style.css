@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-end;
+  padding: 0px 60px;
+  gap: 40px;
+}
+
+#left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+#left h1 {
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 53px;
+}
+
+#bottom-left {
+  height: 40%;
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+#color {
+  /* background-color: blue; */
+  width: fit-content;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #444;
+}
+
+#color h5 {
+  font-size: 11px;
+  margin-right: 7px;
+  font-weight: 400;
+  color: #444;
+}
+
+#color1 {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: burlywood;
+  margin-right: 2px;
+}
+
+#color2 {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+#left h2 {
+  margin-top: 18px;
+  margin-bottom: 9px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#left p {
+  font-size: 10px;
+  width: 66%;
+}
+
+#right {
+  height: 80%;
+  width: 32%;
+  /* background-color: blue; */
+  position: relative;
+}
+
+#right-top {
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  padding-right: 10px;
+}
+
+#right-top h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#right-top h5 {
+  font-size: 9px;
+  font-weight: 500;
+}
+
+#right-top h5 i {
+  color: gold;
+}
+
+#right img {
+  width: 100%;
+  height: 91%;
+  object-fit: cover;
+}
+
+#right #black-gola {
+  font-size: 10px;
+  font-weight: 500;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  position: absolute;
+  right: -45px;
+  top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#rotated {
+  position: absolute;
+  left: -12%;
+  /* background-color: red; */
+  bottom: 3%;
+  rotate: -90deg;
+  transform-origin: 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
