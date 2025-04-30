@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+#nav a {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#nav i {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#center {
+  width: 100%;
+}
+
+#center #left {
+  height: 30%;
+  width: 100%;
+  padding: 0px 60px;
+}
+
+#center #left h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#center #center-in {
+  height: 100px;
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#left #center-in p {
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+#right {
+  width: 20%;
+}
+
+#right .elem {
+  margin-top: 5px;
+  padding: 5px 0;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#right .elem a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+#right .elem i {
+  font-size: 12px;
+  opacity: 0;
+}
+
+#nav a:hover {
+  font-weight: 600;
+}
+
+#right .elem:hover i {
+  opacity: 1;
+}
+
+#right .elem:hover a {
+  font-weight: 600;
+}
+
+#bottom {
+  height: 200px;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1666041753970-5e33da4bb233?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 0 30%;
+}
